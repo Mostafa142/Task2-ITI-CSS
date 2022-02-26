@@ -1,0 +1,44 @@
+.one {
+  background-color: brown;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+  font-family: sans-serif;
+  border-radius: 10px;
+  position: absolute;
+  animation: x 3s both infinite;
+}
+@keyframes x {
+  0% {
+    right: 400px;
+    top: 100px;
+  }
+  16.6% {
+    right: 500px;
+    top: 500px;
+  }
+  33.2% {
+    right: 700px;
+    top: 100px;
+  }
+  49.8% {
+    right: 900px;
+    top: 500px;
+  }
+  66.4% {
+    right: 700px;
+    top: 100px;
+  }
+  83% {
+    right: 500px;
+    top: 500px;
+  }
+  100% {
+    right: 400px;
+    top: 100px;
+  }
+}
